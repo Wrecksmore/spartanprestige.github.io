@@ -6,22 +6,24 @@
     <title>Spartan Prestige Contractors LLC</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
-        header { background: #1a1a1a; color: white; text-align: center; padding: 100px 20px; background-image: url('https://source.unsplash.com/random/1600x900/?construction,pacific-northwest'); background-size: cover; background-position: center; }
-        .logo { max-width: 300px; margin-bottom: 20px; }
-        h1 { font-size: 3em; margin: 0; }
-        .tagline { font-size: 1.8em; margin: 10px 0; }
+        header { background: #1a1a1a url('hero.jpeg') no-repeat center center; color: white; text-align: center; padding: 120px 20px; background-size: cover; }
+        .logo { max-width: 350px; margin-bottom: 20px; }
+        h1 { font-size: 3em; margin: 10px 0; }
+        .tagline { font-size: 1.8em; margin: 20px 0; }
         .cta { background: #c41e3a; color: white; padding: 15px 30px; font-size: 1.2em; text-decoration: none; border-radius: 5px; margin-top: 30px; display: inline-block; }
         section { padding: 60px 20px; text-align: center; }
         .services { background: #f5f5f5; }
         .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 1200px; margin: 40px auto; }
         .service-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .gallery { background: #ffffff; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; max-width: 1200px; margin: 40px auto; }
+        .gallery img { width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
         footer { background: #1a1a1a; color: white; padding: 20px; text-align: center; }
     </style>
 </head>
 <body>
     <header>
-        <!-- Upload your logo to the repo and replace this src with 'logo.png' or similar -->
-        <img src="https://via.placeholder.com/300x100?text=Spartan+Prestige+Logo" alt="Spartan Prestige Contractors Logo" class="logo">
+        <img src="Logo.jpg" alt="Spartan Prestige Contractors Logo" class="logo">
         <h1>Spartan Prestige Contractors LLC</h1>
         <p class="tagline">Built with Spartan strength, crafted with prestige.</p>
         <a href="#contact" class="cta">Get a Free Quote</a>
@@ -31,23 +33,34 @@
         <h2>Our Services</h2>
         <p>Serving Southern Washington, Oregon, and Northern California with premium renovations and repairs.</p>
         <div class="services-grid">
-            <div class="service-card"><h3>Interior Repairs & Finishes</h3><p>Drywall repair, interior/exterior painting, trim & molding, doors, tile installation & repair</p></div>
-            <div class="service-card"><h3>Outdoor & Landscaping</h3><p>Fences, decks, pergolas, retaining walls, yard cleanups, mulching, sod, garden beds</p></div>
-            <div class="service-card"><h3>Flooring & Framing</h3><p>Floor removal/prep, minor framing, caulking/sealing, handrails & stair repairs</p></div>
-            <div class="service-card"><h3>Property Maintenance</h3><p>Rental refreshes, move-in/out repairs, punch-list completion, light demo, ongoing plans</p></div>
+            <div class="service-card"><h3>Interior Repairs & Finishes</h3><p>Drywall repair & patching, interior/exterior painting, trim/baseboards/molding, door & hardware installation, tile installation/repair/re-grouting</p></div>
+            <div class="service-card"><h3>Outdoor & Landscaping</h3><p>Fence repair/installation, deck repair/small builds, pergolas/outdoor structures, retaining walls, yard cleanups, mulching/gravel, sod/lawn repair, garden beds</p></div>
+            <div class="service-card"><h3>Flooring & Framing</h3><p>Floor removal/prep, minor framing/repairs, caulking/sealing, handrails/stair repairs</p></div>
+            <div class="service-card"><h3>Property Maintenance</h3><p>Rental property refreshes, move-in/out repairs, punch-list completion, light demo/cleanup, ongoing maintenance plans</p></div>
         </div>
-        <a href="#portfolio" class="cta">View Our Projects</a>
+    </section>
+
+    <section class="gallery" id="portfolio">
+        <h2>Our Projects</h2>
+        <p>Real transformations in the Pacific Northwest</p>
+        <div class="gallery-grid">
+            <img src="project.jpeg" alt="Project 1">
+            <img src="project1.jpeg" alt="Project 2">
+            <img src="project2.png" alt="Project 3">
+            <img src="project3.png" alt="Project 4">
+        </div>
+        <a href="#contact" class="cta">Discuss Your Project</a>
     </section>
 
     <section id="contact">
         <h2>Contact Us Today</h2>
-        <p>Ready for your next project? We're here to help in the Pacific Northwest.</p>
+        <p>Ready for your next project? We're licensed, insured, and ready in the PNW.</p>
         <p><strong>Email:</strong> [your-email@example.com] <br><strong>Phone:</strong> [your-phone-number]</p>
         <a href="mailto:your-email@example.com" class="cta">Email Us Now</a>
     </section>
 
     <footer>
-        <p>© 2026 Spartan Prestige Contractors LLC | Serving the Pacific Northwest</p>
+        <p>&copy; 2026 Spartan Prestige Contractors LLC | Serving the Pacific Northwest</p>
     </footer>
 </body>
 </html>
